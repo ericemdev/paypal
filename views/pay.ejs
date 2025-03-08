@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayPal Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            background-color: #0070ba;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #005ea6;
+        }
+    </style>
+</head>
+<body>
+<h1>Pay $25 for Membership</h1>
+<p>Click the button below to complete your payment securely via PayPal.</p>
+<form action="/pay" method="POST">
+    <button type="submit">Pay with PayPal</button>
+</form>
+</body>
+</html>
